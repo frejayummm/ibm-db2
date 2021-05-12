@@ -5,7 +5,6 @@ import ibm_db
 !pip install sqlalchemy==1.3.9
 
 
-#Replace the placeholder values with the actuals for your Db2 Service Credentials
 dsn_driver = "{IBM DB2 ODBC DRIVER}"
 dsn_database = "..."            
 dsn_hostname = "..."            
