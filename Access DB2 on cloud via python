@@ -78,6 +78,6 @@ pdf = pandas.read_sql(selectQuery, pconn)
 #print just the LNAME for first row in the pandas data frame
 pdf.LNAME[0]
 
-pdf.shape
+pdf.shape 
 
 ibm_db.close(conn)
